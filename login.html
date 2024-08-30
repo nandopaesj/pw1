@@ -7,35 +7,65 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header><!--H1' é o título principal-->
-        <h1>Registro</h1>
+    <div class="container">
+    <header class="header"><!-- Header = cabecalho da pagina, utilizado principalmente para titulo (h1) ou navegacao-->
+        <div>
+            <div class="login">
+                <a href="index.html" class=""><button>Voltar</button></a>
+            </div>
+            <div class="h1">
+                <h1>Login</h1>
+                <br>
+                <br>
+            </div>
+        </div>
     </header>
     <main>
-        <form action="">
-            <label for="i-email">E-mail <br></label>
-            <input type="email" name="email" id="i-email" placeholder="email@email.com.br" autofocus><br>
+        <form action="" method="get">
+            <label for="i-text">Primeiro nome</label>
+            <input type="text" id="i-text" placeholder="Nome"><br/><br/>
+            <label for="i-text">Último nome</label>
+            <input type="text" id="i-text" placeholder="Sobrenome"><br/><br/>
 
-            <label for="i-pass"><br>Senha <br></label>
-            <input type="password" id="i-pass" pattern="(?=.*\d)(?=.*[a-z]).{8,}" autocomplete="new-password" title="Precisa conter ao menos um número e 8 caracteres"><br>
+            <label for="i-number">CPF</label>
+            <input type="number" name="cpf" placeholder="000.000.000-00" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"><br><br>
 
-            <label for="radio"><br>Gênero <br></label>
+            <label for="i-email">E-mail</label>
+            <input type="email" name="email" id="i-email" placeholder="email@email.com.br" autofocus><br/><br/>
+
+            <label for="i-pass">Senha</label>
+            <input type="password" placeholder="@Senha#Segura00" id="i-pass" pattern="(?=.*\d)(?=.*[a-z]).{8,}" autocomplete="new-password" title="Precisa conter ao menos um número e 8 caracteres"><br/><br/>
+
+            <label for="radio">Gênero</label>
+            <br>
             <input type="radio" name="genero" value="masculino" checked> Masculino
-            <input type="radio" name="genero" value="feminino"> Feminino <br>
+            <input type="radio" name="genero" value="feminino"> Feminino <br/><br/>
             
-            <label for="i-date"><br>Data de nascimento <br></label>
-            <input type="date" name="bday" id="i-date"><br>
+            <label for="i-date">Data de nascimento</label>
+            <input type="date" name="bday" id="i-date"><br/><br/>
 
-            <label for="i-tel"><br>Telefone<br></label>
-            <input type="tel" name="phone" autocomplete="tel" id="i-tel"><br>
+            <label for="i-tel">Telefone</label>
+            <input type="tel" name="phone" placeholder="+00 (00) 9 1234 - 5678" autocomplete="tel" id="i-tel"><br/><br/>
 
-            <label for="i-submit"><br></label>
+            <!-- <label for="i-submit"></label> -->
+            <input type="reset" value="Limpar" id="i-submit"><br/><br/>
             <input type="submit" value="Registro" id="i-submit"><br/><br/>
         </form>
         <br>
         <br>
-        <a href="index.html">Voltar</a>
     </main>
+    </div>
 </body>
+
+<!-- nome
+ sobrenome
+ cpf
+ birthdate
+ email
+ senha
+ repete senha
+-->
+
 
 <!-- tipos de formulário 
  
@@ -87,4 +117,3 @@
             <label for="i-week">Selecione a semana</label>
             <input type="week" name="week_year" id="i-week"><br><br>
 -->
-

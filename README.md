@@ -1,17 +1,17 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
-  Sou o Fernando Paes, jovem de 16 anos e iniciando carreira de programador. <strong>Front-End e </strong>.<br>
-  Estudando Desenvolvimento de Sistemas na ETEC Albert Einstein e Ensino Medio no Salesiano
+  Sou o Fernando Paes, jovem de 16 anos e iniciando carreira de programador. <strong>Full-Stack Web + .LUA + Java</strong>.<br>
+  Estudando Desenvolvimento de Sistemas na ETEC Albert Einstein e Ensino Médio no Salesiano
   Ex-CEO de um servidor de FiveM (GtaV Online)
 </p>
 
 <p align="left">
-  ☕️ Linguagens: **HTML; CSS; <strong>.lua</strong>; Java; JavaScript**
+  ☕️ Linguagens: HTML; CSS; <strong>.lua</strong>; Java; JavaScript
 </p>
 
 <p align="left">
-  💼 Ferramentas: **Visual Studio Code; Eclipse; etc...**
+  💼 Ferramentas: Visual Studio Code; Eclipse; etc...
 </p>
 
 <p align="left">
